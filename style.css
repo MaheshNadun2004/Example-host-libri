@@ -1,0 +1,31 @@
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  color: #ffffff;
+  text-align: center;
+  padding: 25px 15px;
+}
+
+.library-card {
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  margin-bottom: 15px;
+}
+
+/* Book Image */
+.book-img {
+  width: 55px;
+  height: 75px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.btn-open {
+  border-radius: 30px;
+}
